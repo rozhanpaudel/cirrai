@@ -139,7 +139,7 @@ export default function Home() {
         </section> */}
 
         {/* Contact Section */}
-        {/* <ContactSection /> */}
+       <ContactSection />
       </main>
 
       <footer className="bg-gray-900 text-white py-12">
