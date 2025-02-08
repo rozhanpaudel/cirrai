@@ -6,6 +6,7 @@ import ResearchSection from "./components/ResearchSection";
 import DatasetSection from "./components/DatasetSection";
 import ContactSection from './components/ContactSection';
 import Link from 'next/link';
+import TeamsSection from './components/TeamsSection';
 
 export default function Home() {
   return (
@@ -58,27 +59,34 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold mb-4">Our Technology</h2>
-              <p className="text-gray-600">Advanced Deep Learning Models for Medical Imaging</p>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Advanced Deep Learning Models for Medical Imaging with state-of-the-art performance
+              </p>
             </div>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
                   title: "Deep Learning Models",
                   description: "State-of-the-art architectures including VGG-19, ResNet-50, and MedMamba-S for accurate cirrhosis classification",
+                  icon: "🧠"
                 },
                 {
                   title: "Cross-Modality Analysis",
                   description: "Advanced processing of both T1-weighted and T2-weighted MRI scans for comprehensive diagnosis",
+                  icon: "🔄"
                 },
                 {
                   title: "Automated Staging",
                   description: "Intelligent classification of liver cirrhosis stages with high precision and reliability",
+                  icon: "📊"
                 },
               ].map((feature, index) => (
                 <Card
                   key={index}
                   title={feature.title}
                   description={feature.description}
+                  icon={<span className="text-4xl mb-4">{feature.icon}</span>}
+                  className="hover:shadow-lg transform hover:-translate-y-1 transition duration-300"
                 />
               ))}
             </div>
@@ -137,6 +145,9 @@ export default function Home() {
             </div>
           </div>
         </section> */}
+
+        {/* Add Teams Section before Contact Section */}
+        <TeamsSection />
 
         {/* Contact Section */}
        <ContactSection />

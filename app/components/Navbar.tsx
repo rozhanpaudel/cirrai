@@ -41,6 +41,12 @@ export default function Navbar() {
               Technology
             </button>
             <button 
+              onClick={() => scrollToSection('teams')}
+              className="text-gray-700 hover:text-primary"
+            >
+              Teams
+            </button>
+            <button 
               onClick={() => scrollToSection('about')}
               className="text-gray-700 hover:text-primary"
             >

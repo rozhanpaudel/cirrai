@@ -52,6 +52,12 @@ export default function MobileMenu() {
               About
             </button>
             <button 
+              onClick={() => scrollToSection('teams')}
+              className="text-gray-700 hover:text-primary px-4 py-2 text-left"
+            >
+              Teams
+            </button>
+            <button 
               onClick={() => scrollToSection('contact')}
               className="bg-primary text-white px-4 py-2 rounded-full hover:bg-opacity-90 transition text-center"
             >
