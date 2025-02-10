@@ -3,37 +3,37 @@ import Image from 'next/image';
 
 const teamMembers = [
   {
-    name: "Dr. KC Santosh",
+    name: "KC Santosh,Ph.D.",
     role: "Technical Lead",
     title: "Ph.D. in Computer Science - Artificial Intelligence",
     image: "/team/prof_kc_santosh.jpg",
     description: "AI Expert, Professor and Chair at Department of Computer Science, USD"
   },
   {
-    name: "Dr. Debesh Jha",
+    name: "Debesh Jha, Ph.D.",
     role: "Technical Lead",
     title: "Ph.D. in Computer Science",
     image: "/team/prof_debesh_jha.jpg",
     description: "Specializes in deep learning architectures for medical image analysis"
   },
   {
-    name: "Er. Roshan Paudel",
+    name: "Roshan Paudel",
     role: "Entrepreneurial Lead",
     title: "Graduate Student at University Of South Dakota",
     image: "/team/roshan_paudel.jpg",
     description: "Expert in Software Engineering and Machine Learning"
   },
   {
-    name: "Er. Aashish Ghimire ",
+    name: "Aashish Ghimire ",
     role: "Entrepreneurial Lead",
     title: "Graduate Student at University Of South Dakota",
     image: "/team/aashish_ghimire.jpeg",
     description: "Focuses on model development"
   },
   {
-    name: "Manish Jha ",
+    name: "Manish Jha",
     role: "Entrepreneurial Lead",
-    title: "Ph.D. in Physics",
+    title: "Pursuing Ph.D. in Physics",
     image: "/team/manish_jha.jpeg",
     description: "Specializes in Physics"
   },
