@@ -31,7 +31,7 @@ const teamMembers = [
     description: "Focuses on model development"
   },
   {
-    name: "Dr. Manish Jha ",
+    name: "Manish Jha ",
     role: "Entrepreneurial Lead",
     title: "Ph.D. in Physics",
     image: "/team/manish_jha.jpeg",
